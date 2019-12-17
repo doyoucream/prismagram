@@ -3,7 +3,7 @@ import { prisma } from "../../../../generated/prisma-client";
 
 export default {
     Mutation: {
-        addComment: async ( _, args, { request }) => {
+        addComment: async ( _, args, { request } ) => {
             isAuthenticated(request);
             const { text, postId } = args;
             const { user } = request;
