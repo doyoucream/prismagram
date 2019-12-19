@@ -4,22 +4,25 @@ Instagram clone with Express + Prisma + React and React Native
 
 ## User Stories
 
-- [x] Create account
+- [x] Create Account
 - [x] Request Secret
 - [x] Confirm Secret (Login)
-- [x] Like / Unlike a photo
-- [x] Comment on a photo
-- [x] Search by user
-- [x] Search by location
+- [x] Like / Unlike a Photo
+- [x] Comment on a Photo
+- [x] Search by User
+- [x] Search by Location
 - [x] Follow User
 - [x] Unfollow User
-- [x] Edit my profile
-- [x] See user profile
-- [x] See My profile
-- [ ] See the full post
-- [ ] Upload a photo
-- [ ] Edit the photo (Delete)
-- [ ] See the feed
+- [x] Edit My Profile
+- [x] See User Profile
+- [x] See My Profile
+- [x] See the Full Post
+- [x] Upload a Photo
+- [x] Edit the Photo (Delete)
+- [ ] See the Feed
+- [ ] See Rooms
+- [ ] Send Private Message
+- [ ] Receive Message (Realtime)
 
 ## Need to ADD
 
