@@ -1,5 +1,6 @@
 type User {
   id: ID!
+  avatar: String
   userName: String!
   email: String!
   firstName: String
@@ -72,13 +73,6 @@ type Message {
   from: User!
   to: User!
   room: Room!
-  createdAt: String
-  updatedAt: String
-}
-
-type UserProfile {
-  user: User!
-  posts: [Post!]!
   createdAt: String
   updatedAt: String
 }

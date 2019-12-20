@@ -3,10 +3,16 @@ import { prisma } from "../../../../generated/prisma-client";
 
 export default {
   Query: {
-    me: async (_, __, { request }) => {
+    seeRooms: (_, __, { request }) => {
       isAuthenticated(request);
       const { user } = request;
-      return prisma.user({ id: user.id });
+      return prisma.rooms({
+        where: {
+          participants_some: {
+            id: user.id
+          }
+        }
+      });
     }
   }
 };
